@@ -15,3 +15,10 @@ for(var i=0; i<this.length; i++) {
 }
   return a;
 }
+String.prototype.toObject = function() {
+var a = new Object();
+a.type = "string";
+a.objectified = true;
+a.value = this.valueOf();
+return a;
+}
