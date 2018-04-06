@@ -22,3 +22,10 @@ a.objectified = true;
 a.value = this.valueOf();
 return a;
 }
+String.prototype.toNumberMap = function() {
+var arr = [];
+  for(var i=0; i<this.length; i++) {
+arr.push(this.charCodeAt(i));
+}
+  return arr;
+}
