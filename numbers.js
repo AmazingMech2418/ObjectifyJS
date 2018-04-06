@@ -13,9 +13,9 @@ a.objectified = true;
 a.value = this.valueOf();
 return a;
 }
-Number.prototype.sin = function() {return Math.sin(this.valueOf);}
-Number.prototype.cos = function() {return Math.cos(this.valueOf);}
-Number.prototype.tan = function() {return Math.tan(this.valueOf);}
-Number.prototype.abs = function() {return Math.abs(this.valueOf);}
-Number.prototype.toPowerOf = function(exponent) {return Math.pow(this.valueOf,exponent);}
-Number.prototype.toText = function() {return String.fromCharCode(this.valueOf);}
+Number.prototype.sin = function() {return Math.sin(this);}
+Number.prototype.cos = function() {return Math.cos(this);}
+Number.prototype.tan = function() {return Math.tan(this);}
+Number.prototype.abs = function() {return Math.abs(this);}
+Number.prototype.toPowerOf = function(exponent) {return Math.pow(this,exponent);}
+Number.prototype.toText = function() {return String.fromCharCode(this);}
