@@ -12,4 +12,4 @@ var apiLib = {
 };
 apiLib.get("https://amazinigmech2418.github.io/ObjectifyJS/objects.js",function(data){eval(data);});
 apiLib.get("https://amazinigmech2418.github.io/ObjectifyJS/numbers.js",function(data){eval(data);});
-apiLib.get("https://amazinigmech2418.github.io/ObjectifyJS/string.js",function(data){eval(data);});
+apiLib.get("https://amazinigmech2418.github.io/ObjectifyJS/strings.js",function(data){eval(data);});
