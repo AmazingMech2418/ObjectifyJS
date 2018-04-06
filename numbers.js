@@ -18,4 +18,4 @@ Number.prototype.cos = function() {return Math.cos(this.valueOf);}
 Number.prototype.tan = function() {return Math.tan(this.valueOf);}
 Number.prototype.abs = function() {return Math.abs(this.valueOf);}
 Number.prototype.toPowerOf = function(exponent) {return Math.pow(this.valueOf,exponent);}
-Number.prototype.toText = function() {return String.charcode(this.valueOf);}
+Number.prototype.toText = function() {return String.fromCharCode(this.valueOf);}
